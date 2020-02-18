@@ -1,0 +1,68 @@
+
+.allwrappers {
+    width: 90%;
+    left: 5%;
+    text-align: center;
+    position: relative;
+}
+.indsponsor {
+    text-align: center;
+    display: inline;
+    width: 24%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.indsponsor1 {
+    text-align: center;
+    display: inline-block;
+    width: 24%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.mainheading {
+    margin-top: 35px;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: f2;
+    letter-spacing: 2px;
+}
+.cgs {
+    font-family: Arial;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    opacity: 0.7;
+    font-weight: bold;
+	
+}
+.cgs table {
+    width: 40%;
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+.sponsorname {
+    width: auto;
+    text-transform: capitalize;
+    font-family: Arial;
+    text-align: center;
+    font-size: 18px;
+    /* letter-spacing: .8px; */
+}
+.sponsorimage {
+    text-align: center;
+    height: 100px;
+    width: auto;
+    padding-left: 30px;
+}
+.sponsorimage1 {
+    text-align: center;
+    height: 150px;
+	width: auto;
+}

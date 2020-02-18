@@ -1,0 +1,150 @@
+
+  #contact {
+    padding: 40px 0;
+  }
+  #contact h1 {
+    text-align: center;
+    color: white;
+  }
+ .border {
+    width: 100px;
+    margin: 30px auto;
+    height: 5px;
+    background: #44bd32;
+  }
+  #contact .contact-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+  }
+  #contact .contact-form .contact-form-text {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 20px 40px;
+    background: white;
+    outline: none;
+    border: none;
+    color: #808080;
+  }
+  #contact .contact-form .contact-form-text:hover {
+    border: 1px solid #44bd32;
+  }
+  #contact .contact-form textarea.contact-form-text {
+    height: 120px;
+    overflow: scroll;
+  }
+  #contact .contact-form .btn {
+    float: right;
+    border: 0;
+    outline: 0;
+    background: #44bd32;
+    padding: 10px 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  #contact .contact-form .btn:hover {
+    background: #359527;
+  }
+
+  @media screen and (max-width: 55em) {
+      #contact .contact-form .contact-form-text{
+          width: 75%;
+      }
+  }
+
+
+  
+#social {
+    margin: 20px 10px;
+    text-align: center;
+  }
+  
+  .smGlobalBtn { /* global button class */
+      display: inline-block;
+      position: relative;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      border:2px solid #ddd; /* add border to the buttons */
+      box-shadow: 0 3px 3px #999;
+      padding: 0px;
+      text-decoration: none;
+      text-align: center;
+      color: #fff;
+      font-size: 25px;
+      font-weight: normal;
+      line-height: 2em;
+      border-radius: 27px;
+      -moz-border-radius:27px;
+      -webkit-border-radius:27px;
+  }
+  
+  /* facebook button class*/
+  .facebookBtn{
+      background: #4060A5;
+  }
+  
+  .facebookBtn:before{ /* use :before to add the relevant icons */
+      font-family: "FontAwesome";
+      content: "\f09a"; /* add facebook icon */
+  }
+  
+  .facebookBtn:hover{
+      color: #4060A5;
+      background: #fff;
+      border-color: #4060A5; /* change the border color on mouse hover */
+  }
+  
+  /* twitter button class*/
+  .twitterBtn{
+      background: #00ABE3;
+  }
+  
+  .twitterBtn:before{
+        font-family: "FontAwesome";
+        content: "\f099"; /* add twitter icon */
+        
+  }
+  
+  .twitterBtn:hover{
+        color: #00ABE3;
+        background: #fff;
+        border-color: #00ABE3;
+  }
+  
+  
+  /* linkedin button class*/
+  .linkedinBtn{
+      background: #0094BC;
+  }
+  
+  .linkedinBtn:before{
+        font-family: "FontAwesome";
+        content: "\f0e1"; /* add linkedin icon */
+  }
+  
+  .linkedinBtn:hover{
+        color: #0094BC;
+        background: #fff;
+        border-color: #0094BC;
+  }
+  
+  /* pinterest button class*/
+  .instagramBtn{
+      background: #C13584;
+  }
+  
+  .instagramBtn:before{
+        font-family: "FontAwesome";
+        content: "\f16d"; 
+  }
+  
+  .instagramBtn:hover{
+        color: #cb2027;
+        background: #fff;
+        border-color: #cb2027;
+  }
+  
